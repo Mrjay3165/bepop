@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-image: url(./img/bepop1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.dark{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 14px;
+}
+
+nav{
+    padding: 10px 20px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.display h2{
+    color: white;
+}
+
+.display h1{
+    font-size: 20px;
+}
+
+.head{
+    justify-content: space-between;
+}
+
+.menu{
+    gap: 15px;
+}
+
+.leftnav{
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu button{
+    background-color: rgb(228, 15, 228);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.menu button:hover{
+    background-color: purple;
+    transition: .3s;
+}
+
+.mid-content{
+    text-align: center;
+    margin: 51px;
+}
+
+.mid-content h1{
+    font-size: 60px;
+}
+
+.mid-content button{
+    margin-top: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.discover{
+    background: linear-gradient(90deg, rgb(205, 24, 205), rgb(28, 28, 193));
+    border: none;
+    margin: 0 10px;
+}
+
+.purchase{
+    background-color: rgba(207, 202, 202, 0.1);
+    border: 2px solid rgb(142, 140, 140);
+}
+
+.artists{
+    text-align: center;
+}
+
+.artists h2{
+    font-size: 40px;
+}
+
+.artists p{
+    margin: 20px;
+    font-size: 15px;
+}
